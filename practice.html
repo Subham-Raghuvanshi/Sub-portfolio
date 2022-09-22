@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="practice.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+var n=prompt("enter a number=");
+var m=n;
+var re=0;
+var c=0;
+while(n!=0)
+{
+    re=n%10;
+    c+=Math.pow(re,3);
+    n=Math.floor(n/10);
+}
+if(m==c)
+{
+    document.write(m+" is a armstrong number");
+}
+else
+{
+    document.write(m+" is not a armstrong  number")
+}
+</script>
+</body>
+</html>

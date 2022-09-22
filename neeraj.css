@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.heading h1 span{
+    color: blue;
+}
+.navlinks{
+    margin-left: -29%;
+}
+header{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px; 
+}
+.navlinks ul
+{  
+    font-weight: bold;
+    font-size: 29px;
+    margin-left: 60vw;
+}
+.navlinks a:hover{
+    border-bottom: 4px solid blue;
+}
+
+.logo img{
+    width: 100px;
+    margin-top: -20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    border-bottom:3px solid whitesmoke;
+    background-color: white;
+    z-index: 1;
+}
+
+ul li{
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 10px 40px;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+.main{
+    margin-top: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner{
+    width: 25%;
+    height: 25%;
+    border-radius: 115%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    
+}
+
+.banner img{
+    width: 96%;
+    border-radius: 120%;
+}
+.heading{
+   margin-top: -70px;
+    margin-bottom: 10px;
+}
+.heading h1{
+    color: black;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.heading p{
+    color: black;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.heading a{
+   position: relative;
+   top: 40px;
+   border-radius: 13px;
+   font-weight: bold;
+}
+
+.heading .btn1{
+    margin-top: 40px;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+}
+
+.heading .btn1:hover{
+    background-color: transparent;
+    color: black;
+}
+
+/*---about-- */
+.about{
+    margin-top: 100px;
+}
+.top{
+    text-align: center;
+    padding-top:100px;
+    margin-bottom:40px;
+    border-bottom:3px solid whitesmoke;
+    font-size: 23px;
+}
+.top span{
+    color: blue;
+}
+.container
+{
+    display: flex;
+    justify-content: space-around;
+}
+.language{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.box{
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: rgb(254, 241, 241);
+    padding: 40px 45px 40px 45px;
+    text-align: center;
+}
+.box h1{
+color: blue;
+font-weight: bold;
+}
+.name{
+    margin-top: 5px;
+}
+.name h2{
+margin-top: 15px;
+}
+span{
+    color: blue;
+}
+ /*----Education-----*/
+
+ .Education{
+    margin-top: 200px;
+    padding-bottom: 60px;
+    background-color: rgb(255, 254, 254);
+}
+.head h2{
+    padding-top: 100px;
+    font-size:40px;
+    font-weight: bold;
+    border-bottom: 3px solid whitesmoke;
+    text-align: center;
+}
+.head span{
+    color: blue;
+}
+section .heading{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.education
+{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+}
+.box span{
+    border:1px solid black;
+    border-radius: 20px;
+    padding: 3px;
+    border-color: white;
+    background-color: white;
+}
+.box1{
+    text-align: center;
+    width: 80%;
+    height: 120%;
+    margin: 50px;
+}
+.box1 h3{
+    font-size: 25px;
+}
+.box1 p{
+ font-size: 19px;
+}
+
+ /* -----certificate--  */
+   .certificate
+   {
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   } 
+   .cer{
+    text-align: center;
+   }
+   .cer h1{
+    padding-top:100px;
+     font-size: 40px;
+     font-weight: bold;
+     border-bottom: 3px solid whitesmoke;
+   }
+   .cer span{
+    color: blue;
+   }
+   .contain{
+    margin-top:100px;
+    margin-left: 100px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+   }
+   .box2{
+   width: 300px;
+   transition: 1s;
+   background-color: black;
+   border-radius: 15px;
+   }
+   .box2:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    background-color: transparent;
+   }
+   .box2 img{
+    width: 100%;
+    border-radius: 20px;
+    padding: 18px 18px 18px 18px;
+   }
+   #rd img{
+       height: 420px;
+   }
+   #jk img{
+    height: 420px;
+   }
+  /*........Contact.....*/
+
+  .contact{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    justify-content: center;
+  }
+  .us{
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 28px;
+    color: blue;
+    border-bottom: 3px solid whitesmoke;
+  }
+  .contac{  
+     display: flex;
+     justify-content: space-around;
+  }
+  .info{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .info h1{
+    color: blue;
+  }
+  #name{
+    width: 25vw;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  #email{
+    margin-top: 15px;
+    width: 25vw;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  #message{
+    margin-top: 40px;
+    width: 25vw;
+    padding: 10px 0px 80px 5px;
+    border-radius: 10px;
+  }
+  .button{
+    margin-top: 30px;
+    padding: 10px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border-color: blue;
+  }
+  .button:hover{
+    background-color: transparent;
+    border-color: black;
+    color: black;
+  }
+  #add{
+    color: blue;
+  }
+
+
+
+
+
+    
+
